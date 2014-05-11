@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleMetaphone", "DoubleMetaphone\DoubleMetaphone.csproj", "{278512A7-EFF1-446D-BC41-AB6A6AAD950B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{B6522BFE-7D0E-4F53-9DC7-834C6004EE96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{278512A7-EFF1-446D-BC41-AB6A6AAD950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278512A7-EFF1-446D-BC41-AB6A6AAD950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278512A7-EFF1-446D-BC41-AB6A6AAD950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278512A7-EFF1-446D-BC41-AB6A6AAD950B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6522BFE-7D0E-4F53-9DC7-834C6004EE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6522BFE-7D0E-4F53-9DC7-834C6004EE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6522BFE-7D0E-4F53-9DC7-834C6004EE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6522BFE-7D0E-4F53-9DC7-834C6004EE96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
