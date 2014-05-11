@@ -8,14 +8,24 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestRaziq()
         {
             string primary, secondary;
-
             var success = DoubleMetaphone.TryParse("Raziq", out primary, out secondary);
             Assert.IsTrue(success);
             Assert.AreEqual("RSK", primary);
             Assert.IsNull(secondary);
+        }
+
+        [TestMethod]
+        public void TestCopperthwaite()
+        {
+            string primary, secondary;
+            var success = DoubleMetaphone.TryParse("Copperthwaite", out primary, out secondary);
+            Assert.IsTrue(success);
+            Assert.AreEqual("KPR0", primary);
+            Assert.AreEqual("KPRT", secondary
+                );
         }
     }
 }
